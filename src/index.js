@@ -14,9 +14,9 @@
 
 'use strict';
 
-import EpicMonitor from './services/EpicMonitor';
-import EpicSettings from './components/EpicSettings';
-import EpicStatus from './components/EpicStatus';
+import EpicMonitor from './services/EpicMonitor.js';
+import EpicSettings from './components/EpicSettings.jsx';
+import EpicStatus from './components/EpicStatus.jsx';
 
 /**
  * Allow2Automate Epic Games Plugin
