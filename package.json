@@ -1,7 +1,6 @@
 {
   "name": "@allow2/allow2automate-epic",
   "version": "1.0.0",
-  "type": "module",
   "description": "Epic Games Store parental control monitoring via Allow2 Agent",
   "main": "./dist/index.js",
   "scripts": {
@@ -13,6 +12,8 @@
     "test:coverage": "jest --coverage"
   },
   "allow2automate": {
+    "plugin": true,
+    "pluginId": "allow2automate-epic",
     "displayName": "Epic Games",
     "shortName": "epic",
     "category": "gaming",
